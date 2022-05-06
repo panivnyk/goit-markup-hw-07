@@ -1,0 +1,76 @@
+//Hero button
+.hero__btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--second-title-color);
+  background-color: var(--accent-color);
+  transition: background-color var(--time-transition) var(--typical-cubic);
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+  background-color: #188ce8;
+  outline: 0px;
+}
+//Subscription form button
+.subscription-form__btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  margin-left: 12px;
+  color: var(--second-title-color);
+  background-color: #2196f3;
+}
+// Modal button for send form
+.send-form-btn {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--second-title-color);
+  background-color: var(--accent-color);
+  transition: background-color var(--time-transition) var(--typical-cubic);
+}
+
+.send-form-btn:hover,
+.send-form-btn:focus {
+  background-color: #188ce8;
+}
