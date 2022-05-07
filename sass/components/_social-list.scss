@@ -19,11 +19,10 @@
 
   transition: fill var(--time-transition) var(--typical-cubic),
     background-color var(--time-transition) var(--typical-cubic);
-}
-
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--second-title-color);
-  outline: 0px;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--second-title-color);
+    outline: 0px;
+  }
 }

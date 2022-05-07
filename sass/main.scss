@@ -1,12 +1,13 @@
+//Base & Util
 @import './utils/variables';
 @import './base/reset';
 @import './base/common';
 @import './utils/hidden';
 // Components:
-@import './components/main-logo';
+@import './components/logo';
+@import './components/backdrop';
 @import './components/modal';
-@import './components/title';
-@import './components/container';
+@import './components/section-title';
 @import './components/buttons';
 @import './components/social-list';
 // Sections:
